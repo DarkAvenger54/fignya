@@ -1,0 +1,114 @@
+.div{
+    box-sizing:border-box;
+
+}
+.face{
+    width:200px ;
+    height:200px ;
+    border-radius:50%;
+    background-color: chocolate;
+    border:solid 4px black;
+    display:flex;
+    position:relative;
+}
+
+.ear1{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    background-color: chocolate;
+    border:solid 4px black;
+    margin-top:0px;
+    position:absolute;
+}
+.ear2{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    background-color: chocolate;
+    border:solid 4px black;
+    margin-top:0px;
+    margin-left:150px;
+    position:absolute;
+}
+.eye1{
+    margin-top:70px;
+    margin-left:125px ;
+    width:15px;
+    height:15px;
+    border:solid 1px black;
+    background-color:black;
+    border-radius:50%;
+    position: relative;
+}
+.eye2{
+    margin-top:70px;
+    margin-left:55px ;
+    width:15px ;
+    height:15px;
+    border:solid 1px black;
+    background-color:black;
+    border-radius:50%;
+    position: absolute;
+}
+.nose{
+    width:30px;
+    height:30px;
+    border:solid 1px black;
+    background-color:black;
+    position:absolute;
+    margin-top:110px ;
+    margin-left:84px;
+    border-radius:50%;
+    z-index: 999;
+}
+.eyebrow1{
+    width:45px;
+    height:10px;
+    border:solid 1px black;
+    background-color:black;
+    position:absolute;
+    margin-top:35px ;
+    margin-left:30px;
+    border-radius:10px;
+}
+.eyebrow2{
+    width:45px;
+    height:10px;
+    border:solid 1px black;
+    background-color:black;
+    position:absolute;
+    margin-top:35px ;
+    margin-left:115px;
+    border-radius:10px;
+}
+.mouth1{
+    width:35px;
+    height:40px;
+    border-top:solid 3px black;
+    border-right:solid 3px black;
+    border-bottom:solid 3px black;
+    background-color:whitesmoke;
+    position:absolute;
+    margin-top:120px ;
+    margin-left:100px;
+    border-radius:50%;
+    z-index: 10; 
+}
+.mouth2{
+    width:35px;
+    height:40px;
+    border-top:solid 3px black;
+    border-left:solid 3px black;
+    border-bottom:solid 3px black;
+    background-color:whitesmoke;
+    position:absolute;
+    margin-top:120px ;
+    margin-left:61px;
+    border-radius:50%;
+    z-index: 10; 
+}
+
+
+
+
